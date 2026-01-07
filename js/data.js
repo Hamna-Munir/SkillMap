@@ -1,3 +1,4 @@
+// Skill data for all careers
 const skillData = {
   "web-developer": {
     title: "Web Developer",
@@ -29,13 +30,26 @@ const skillData = {
       }
     ]
   },
+
   "data-scientist": {
     title: "Data Scientist",
     description: "Learn Python, ML, and data visualization.",
     skills: [
-      { name: "Python", description: "Learn programming with Python.", resources: [{ name: "Python Official Docs", link: "https://docs.python.org/3/" }] },
-      { name: "Pandas", description: "Data manipulation library.", resources: [{ name: "Pandas Docs", link: "https://pandas.pydata.org/" }] },
-      { name: "Matplotlib", description: "Data visualization library.", resources: [{ name: "Matplotlib Docs", link: "https://matplotlib.org/" }] }
+      { 
+        name: "Python", 
+        description: "Learn programming with Python.", 
+        resources: [{ name: "Python Official Docs", link: "https://docs.python.org/3/" }] 
+      },
+      { 
+        name: "Pandas", 
+        description: "Data manipulation library.", 
+        resources: [{ name: "Pandas Docs", link: "https://pandas.pydata.org/" }] 
+      },
+      { 
+        name: "Matplotlib", 
+        description: "Data visualization library.", 
+        resources: [{ name: "Matplotlib Docs", link: "https://matplotlib.org/" }] 
+      }
     ]
   }
 };
