@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    #career-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-card {
+        font-size: 14px;
+    }
+}
